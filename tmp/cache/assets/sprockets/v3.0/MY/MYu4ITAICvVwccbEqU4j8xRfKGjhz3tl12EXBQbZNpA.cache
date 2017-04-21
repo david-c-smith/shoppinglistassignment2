@@ -1,0 +1,13 @@
+I"Ä(function() {
+  jQuery(function() {
+    $('#todo_lists').sortable();
+    return {
+      axis: 'y',
+      update: function() {
+        return alert('updated');
+      }
+    };
+  });
+
+}).call(this);
+:ET
